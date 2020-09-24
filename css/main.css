@@ -1203,6 +1203,9 @@ ul li {
 /* styling max width 360 */
 
 @media only screen and (max: 360px) {
+    
+    /* display left */
+    
     /* modals */
     .modals {
         display: inline-flex;
@@ -1222,7 +1225,8 @@ ul li {
     }
     
     /* social icons */
-    .social_icons{
+    .display_left .social_icons {
+        padding: 0px;
         display: none;
         opacity: 0;
     }
