@@ -1221,10 +1221,8 @@ ul li {
         padding: 2px 4px;
     }
     
+    /* footer content */
     .footer_content {
-        position: absolute;
-        top: 80%
-        left: 50%;        
-        transform: translateX(-50%);
+       display; none;
     }
 }
