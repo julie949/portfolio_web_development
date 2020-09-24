@@ -1226,6 +1226,11 @@ ul li {
         display: none;
     }
     
+    /* app icon */
+    .app_icon {
+        display: none;
+    }
+    
     /* footer content */
     .footer_content {
        display: none;
