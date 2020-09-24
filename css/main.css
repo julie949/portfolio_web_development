@@ -1223,6 +1223,6 @@ ul li {
     
     /* footer content */
     .footer_content {
-       display; none;
+       display: none;
     }
 }
