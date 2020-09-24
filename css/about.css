@@ -1,0 +1,183 @@
+/* import font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* main content */
+
+#main_content {
+    position: relative;
+    padding: 3rem;
+}
+
+
+/* my profile pic */
+
+.profile {
+    height: 150px;
+    width: 150px;
+    padding: 10px 0 0 1px;
+    box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+img {
+    object-fit: scale-down;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* header */
+
+.header {
+    letter-spacing: 0.5px;
+    word-spacing: 0.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    padding-top: 0.6rem;
+    text-align: center;
+    color: #0492c2;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    padding-top: 0.6rem;
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h3::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 315px;
+    margin-top: -6px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/* details */
+
+.detail {
+    padding: 3rem;
+    width: 600px;
+    margin: 1.6rem auto auto auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0.6;
+}
+
+.detail p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 4px;
+}
+
+
+/* btn */
+
+
+/* btn after */
+
+.home::after {
+    position: absolute;
+    content: '';
+    background: #0492c2;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    left: 50%;
+    margin-left: -23px;
+    margin-top: 20px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+
+/* btn hover */
+
+.home:hover:after {
+    transform: scale(1.2);
+    background: #ff4500;
+    transition: 0.2s;
+}
+
+
+/* span */
+
+span {
+    position: absolute;
+    animation: animate 0.3s infinite;
+}
+
+.home .line {
+    height: 20px;
+    width: 20px;
+    border-bottom: 1px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(128deg);
+    left: 50%;
+    margin-top: 33px;
+    margin-left: -10px;
+    animation-delay: -0.3s;
+}
+
+.home .horizontal {
+    height: 25px;
+    width: 17px;
+    border-right: 2px solid #ffffff;
+    transform: rotate(90deg);
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -7px;
+    animation-delay: -0.7s;
+}
+
+
+/*  btn animation  */
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* p before */
+
+p::before {
+    position: absolute;
+    content: '';
+    background: #0492c2;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: 5px;
+}
