@@ -1221,6 +1221,11 @@ ul li {
         padding: 2px 4px;
     }
     
+    /* social icons */
+    .social_icons{
+        display: none;
+    }
+    
     /* footer content */
     .footer_content {
        display: none;
