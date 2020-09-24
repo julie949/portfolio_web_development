@@ -1224,11 +1224,13 @@ ul li {
     /* social icons */
     .social_icons{
         display: none;
+        opacity: 0;
     }
     
     /* app icon */
     .app_icon {
         display: none;
+        opacity: 0;
     }
     
     /* footer content */
