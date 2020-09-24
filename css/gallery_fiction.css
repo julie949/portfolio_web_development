@@ -192,3 +192,25 @@ body {
         opacity: 0;
     }
 }
+
+/* styling max width 414 */
+
+@media only screen and (max-width: 414px) {
+    /* slide fiction  */
+    .slide_fiction {
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        grid-template-rows: repeat(7, 70px);
+        grid-gap: 7px;
+    }
+    /* title */
+    .title {
+        position: absolute;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #0492c2;
+        font-size: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
