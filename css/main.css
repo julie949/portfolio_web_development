@@ -1220,4 +1220,11 @@ ul li {
         color: #ffffff;
         padding: 2px 4px;
     }
+    
+    .footer_content {
+        position: absolute;
+        top: 80%
+        left: 50%;        
+        transform: translateX(-50%);
+    }
 }
