@@ -1,0 +1,177 @@
+/* import google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Gallery overlay */
+
+body {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+/* page title and logo */
+
+.title_logo {
+    display: inline-flex;
+    padding-left: 3rem;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+
+/* page logo */
+
+.page_logo {
+    width: 80px;
+    height: 80px;
+    object-fit: top left;
+}
+
+
+/* page title */
+
+.page_title {
+    color: #0492c2;
+    font-weight: 400;
+    padding-top: 35px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* page home & icons */
+
+.page_home {
+    position: fixed;
+    z-index: 1;
+    top: 24px;
+    left: 78%;
+}
+
+.page_icon {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    font-size: 16px;
+    color: #0492c2;
+}
+
+.page_icon i {
+    color: #2a52be;
+    padding: 2px;
+}
+
+.page_icon:hover {
+    color: #ff4500;
+    font-weight: bolder;
+}
+
+.page_icon:hover i {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* back to school */
+
+.img_school {
+    position: absolute;
+    top: -5px;
+    left: 70%;
+}
+
+.img_school img {
+    width: 90px;
+    height: 90px;
+    object-fit: scale-down;
+    animation: img-pulse 1s infinite;
+}
+
+
+/* back to school animation */
+
+@keyframes img-pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+
+/* page icon after */
+
+.page_icon::after {
+    position: absolute;
+    z-index: 1;
+    margin-left: 9px;
+    margin-top: -5px;
+    content: '';
+    background: rgba(0, 0, 0, 0.1);
+    width: 1px;
+    height: 28px;
+}
+
+
+/* page active */
+
+.page_home #active {
+    color: #ff4500;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#active .fa-home {
+    color: #0492c2;
+}
+
+.page_icon:hover {
+    color: rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+
+.page_icon:hover i {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* school book */
+
+.school_book {
+    width: 50%;
+    margin: 20px auto auto auto;
+}
+
+.school_category {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 100px;
+    justify-content: center;
+    background: #0492c2;
+}
+
+.school_category li {
+    list-style: none;
+    text-align: center;
+}
