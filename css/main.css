@@ -36,6 +36,7 @@
                 overflow: hidden;
                 transition: 0.3s;
             }
+
             /* sub content */
             
             #sub_content {
@@ -931,6 +932,7 @@
                 .footer_content {
                     padding-top: 15px;
                 }
+}
                 /* styling max width 414 */
                 @media only screen and (max-width: 414px) {
                     /* page home */
