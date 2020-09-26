@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <!-- sub content -->
     <header id="sub_content">
         <!-- page-logo & title -->
@@ -25,12 +26,14 @@
                 <span>B</span>ook
             </h2>
         </div>
+        
         <!-- search box -->
         <div class="search_box_btn">
             <input type="text" name="box" placeholder="Search Books..." id="search_box">
             <!-- search icon -->
             <a href="#" id="search_icon"><i class = "fa fa-search"></i></a>
         </div>
+        
         <!-- page icons -->
         <div class="page_home">
             <a href="index.html" id="active" class="page_icon"><i class="fa fa-home"></i>Home</a>
@@ -40,10 +43,18 @@
         <div class="back_to_school">
             <a href="back_to_school.html" id="img_school"><img src="picture/img-back-to-school.png"></a>
         </div>
-
+        
         <!-- side nav -->
         <div id="side_nav">
-            <div class="side_menu"><a href="#">&#9776</a></div>
+            <div id="hamburger" class="hamburger_button">&#9776;</div>
+            <div id="menu" class="side_menu">
+                <a href="#">Home</a>
+                <a href="#">Fiction</a>
+                <a href="#">Nonfiction</a>
+                <a href="#">Back to School</a>
+                <a href="#">About</a>
+                <a href="#" class="close_menu">&times;</a>
+            </div>
         </div>
     </header>
 
@@ -61,11 +72,13 @@
                         "Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers."
                     </p>
                 </div>
+                
                 <!-- modal buttons-->
                 <div class="modals">
                     <button id="modal_btn1" class="modal-button">Fiction</button>
                     <button id="modal_btn2" class="modal-button">NonFiction</button>
                 </div>
+                
                 <!-- social icons -->
                 <div class="social_icons">
                     <a href="http://www.facebook.com" class="app_icon"><i class="fa fa-facebook-square"></i></a>
@@ -75,6 +88,7 @@
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
+            
             <!-- display right content -->
             <div class="display_right">
                 <div id="img1"><img class="images" src="./picture/book_1.png"></div>
@@ -103,14 +117,16 @@
             <!-- content 1 -->
             <!-- fiction books -->
             <li id="fiction_book" class="book_name">
+                
                 <!-- header modal fiction & icon -->
                 <div class="header_fiction_modal">
                     <!-- title -->
                     <h3>Fiction Books</h3>
                     <i id="close_btn1" class="fa fa-times"></i>
                 </div>
+                
+                 <!-- list items -->
                 <ul id="fiction_list" class="book_list">
-                    <!-- list items -->
                     <li class="list_item">Action and adventure</li>
                     <li class="list_item">Alternate history</li>
                     <li class="list_item">Children's Books</li>
@@ -132,6 +148,7 @@
                     <li class="list_item">Suspense</li>
                     <li class="list_item">Thriller</li>
                 </ul>
+                
                 <!-- additional icons -->
                 <div class="footer_fiction_modal">
                     <a href="gallery_fiction.html"><i class="fa fa-th"></i></a>
@@ -144,13 +161,14 @@
             <li id="nonfiction_book" class="book_name">
                 <!-- header modal nonfiction & icon -->
                 <div class="header_nonfiction_modal">
+                    
                     <!-- title -->
-
                     <h3>Nonfiction Books</h3>
                     <i id="close_btn2" class="fa fa-times"></i>
                 </div>
+                
+                <!-- list item -->
                 <ul id="nonfiction_list" class="book_list">
-                    <!-- list item -->
                     <li class="list_item">Art/architecture</li>
                     <li class="list_item">Autobiography</li>
                     <li class="list_item">Biography</li>
@@ -172,6 +190,7 @@
                     <li class="list_item">Sports and leisure</li>
                     <li class="list_item">Travel</li>
                 </ul>
+                
                 <!-- additional icons -->
                 <div class="footer_nonfiction_modal">
                     <a href="gallery_nonfiction.html"><i class="fa fa-th"></i></a>
@@ -206,6 +225,7 @@
                 <div><img src="Picture/suspence.png"></div>
                 <div><img src="Picture/thriller.png"></div>
             </div>
+            
             <!-- links -->
             <a class="home" href="index.html">
             </a>
@@ -228,6 +248,6 @@
 
     <!-- javascript -->
     <script src="js/app.js"></script>
+    
 </body>
-
 </html>
