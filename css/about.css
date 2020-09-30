@@ -216,7 +216,20 @@ p::before {
      }
      
 /* h1  */
+     
 h1 {
     font-size: 18px;
      }
+     
+/* details */
+
+.detail {
+    position: absolute;
+    top: 50%;
+    opacity: 0.8;
+}
+
+.detail p {
+    font-size: 15px;
+   }
 }
