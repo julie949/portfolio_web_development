@@ -206,4 +206,12 @@ p::before {
     margin-top: -6px;
     background: rgba(0, 0, 0, 0.1);
   }
+     
+     /* header */
+
+.header {
+    position: absolute;
+    left: 70%;
+    top: 30%;
+     }
 }
