@@ -187,20 +187,9 @@
      height: 100%;
      width: 100%;
      object-fit: scale-down;
-     animation: fade 5s infinite;
  }
  
- @keyframes fade {
-     0% {
-         opacity: 0;
-     }
-     50% {
-         opacity: 1;
-     }
-     100% {
-         opacity: 0;
-     }
- }
+
  /* display animate */
  
  @keyframes animate {
@@ -811,7 +800,6 @@
          height: 72%;
          width: 72%;
          object-fit: scale-down;
-         animation: fade 5s infinite;
      }
      /* footer */
      .footer {
