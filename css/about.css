@@ -188,12 +188,22 @@ p::before {
  
  @media only screen and (max-width: 375px) {
      
-    h3::before {
+  /* my profile pic */
+
+.profile {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);   
+ }
+     
+ /*   h3 before    */
+ h3::before {
     content: '';
     position: absolute;
     height: 1.5px;
     width: 250px;
     margin-top: -6px;
     background: rgba(0, 0, 0, 0.1);
-     }
+  }
 }
