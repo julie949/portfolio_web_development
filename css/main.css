@@ -290,21 +290,8 @@
      width: 80px;
      height: 80px;
      object-fit: scale-down;
-     animation: img-pulse 1s infinite;
  }
- /* back to school animation */
- 
- @keyframes img-pulse {
-     0% {
-         transform: scale(1);
-     }
-     70% {
-         transform: scale(1.1);
-     }
-     100% {
-         transform: scale(1.2);
-     }
- }
+
  /* page icon after */
  
  .page_icon::after {
