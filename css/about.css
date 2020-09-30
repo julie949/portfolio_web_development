@@ -192,7 +192,7 @@ p::before {
     content: '';
     position: absolute;
     height: 1.5px;
-    width: 28]60px;
+    width: 250px;
     margin-top: -6px;
     background: rgba(0, 0, 0, 0.1);
      }
