@@ -17,6 +17,7 @@ const checkBox = document.querySelector('#checkbox');
 // search box input
 const searchBox = document.querySelector('#search_box');
 const searchIcon = document.querySelector('#search_icon');
+const searchBoxBtn = document.querySelector(".search_box_btn");
 
 // books 
 const bookFiction = document.querySelector('#fiction_book');
@@ -100,6 +101,15 @@ function closeModal2() {
     displayContent.classList.remove('active');
     footer.classList.remove('active');
 }
+
+
+// search box btn
+searchBoxBtn.addEventListener('mousedown', function(e) {
+    if (e.target.className === 'fa fa-times') {
+        window.location.reload();
+    }
+});
+
 
 
 
