@@ -1002,11 +1002,9 @@
          display: none;
      }
   
-     /* display left */
-     .display_left {
-      display:none;
-     }
-  
+
+
+
      /* display right */
      .display_right {
       display: none;
@@ -1014,7 +1012,7 @@
   
      /* search box */
      .search_box_btn {
-         display: none;
+      display: none;
      }
   
      /* footer */
