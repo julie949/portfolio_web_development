@@ -180,7 +180,6 @@
      height: 100%;
      width: 100%;
      object-fit: scale-down;
-     animation: animate 3s infinite;
  }
 
  /* display right images nth child */
@@ -244,9 +243,20 @@
  .display_right div:nth-child(15) {
      animation-delay: -0.30s;
  }
- /* img bottom */
+  /* display bottom */
  
- .img_bottom {
+ .display_bottom {
+     position: relative;
+     z-index: 1000;
+     margin: 0px 0px 20px 730px;
+ }
+ 
+ .display_bottom div {
+     position: absolute;
+ }
+ /* img_bottom */
+ 
+ .display_bottom .img_bottom {
      height: 100%;
      width: 100%;
      object-fit: scale-down;
