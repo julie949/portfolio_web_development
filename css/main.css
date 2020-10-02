@@ -172,6 +172,7 @@
  .display_right div {
      position: absolute;
      z-index: 1;
+     animation: animate 10s infinite;
  }
  /* images */
  
@@ -180,6 +181,68 @@
      width: 100%;
      object-fit: scale-down;
      animation: animate 3s infinite;
+ }
+
+ /* display right images nth child */
+ 
+ .display_right div:nth-child(1) {
+     animation-delay: -0.02s;
+ }
+ 
+ .display_right div:nth-child(2) {
+     animation-delay: -0.04s;
+ }
+ 
+ .display_right div:nth-child(3) {
+     animation-delay: -0.06s;
+ }
+ 
+ .display_right div:nth-child(4) {
+     animation-delay: -0.08s;
+ }
+ 
+ .display_right div:nth-child(5) {
+     animation-delay: -0.10s;
+ }
+ 
+ .images:nth-child(6) {
+     animation-delay: -0.12s;
+ }
+ 
+ .display_right div:nth-child(7) {
+     animation-delay: -0.14s;
+ }
+ 
+ .display_right div:nth-child(8) {
+     animation-delay: -0.16s;
+ }
+ 
+ .display_right div:nth-child(9) {
+     animation-delay: -0.18s;
+ }
+ 
+ .display_right div:nth-child(10) {
+     animation-delay: -0.20s;
+ }
+ 
+ .display_right div:nth-child(11) {
+     animation-delay: -0.22s;
+ }
+ 
+ .display_right div:nth-child(12) {
+     animation-delay: -0.24s;
+ }
+ 
+ .display_right div:nth-child(13) {
+     animation-delay: -0.26s;
+ }
+ 
+ .display_right div:nth-child(14) {
+     animation-delay: -0.28s;
+ }
+ 
+ .display_right div:nth-child(15) {
+     animation-delay: -0.30s;
  }
  /* img bottom */
  
