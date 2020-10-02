@@ -132,6 +132,7 @@
  .app_icon {
      text-decoration: none;
      background-color: #e4f5fa;
+     border: solid 0.5px rgba(0, 0, 0, 0.1);
      border-radius: 30px;
      margin-right: 0.6rem;
      padding: 8px;
@@ -155,7 +156,7 @@
  /* apps icon hover */
  
  .app_icon:hover {
-     background-color: rgba(0, 0, 0, 0.2);
+     background-color: rgba(0, 0, 0, 0.3);
      transition: 0.2s ease-in-out;
  }
  /* display right */
