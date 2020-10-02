@@ -1001,6 +1001,17 @@
      .modals {
          display: none;
      }
+  
+     /* display right */
+     .display_right {
+      display: none;
+     }
+  
+     /* search box */
+     .search_box_btn {
+         display: none;
+     }
+
  }
  /* styling max width 414 */
  
