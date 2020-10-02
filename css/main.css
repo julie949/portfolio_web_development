@@ -267,7 +267,7 @@
  
  @keyframes animate {
      0% {
-         opacity: 0;
+         opacity: 0.6;
          margin-top: -120px;
      }
      50% {
